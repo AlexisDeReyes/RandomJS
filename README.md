@@ -31,3 +31,8 @@ example.push(5);
 example.getArray();   // [3, 4, 5]
 
 example._array;       // [4, 5, 3]
+
+example.foreach(function(v) { console.log(v); });
+// 3
+// 4
+// 5
