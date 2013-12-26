@@ -15,6 +15,7 @@ Example Usage:
 
 
 var example = new CircularBuffer(3);
+
 example.push(1);
 
 example.push(2);
